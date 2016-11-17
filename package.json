@@ -1,0 +1,20 @@
+{
+  "name": "generator-webpack-packs",
+  "version": "0.1.0",
+  "description": "yeoman generator for webpack",
+  "keywords": [
+    "yeoman-generator", "webpack"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangsanshi5566@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-beautify": "^2.0.0",
+    "lodash": "^4.14.1",
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^0.24.1"
+  }
+}

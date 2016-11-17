@@ -1,0 +1,36 @@
+{
+    "version": "1.0.0",
+    "scripts": {
+        "test": "istanbul cover _mocha -- -R spec --recursive && node open.js",
+        "publish": "cross-env NODE_ENV=production webpack -p --progress --colors",
+        "watch": "webpack --watch --colors",
+        "start": "node webpack.server.js"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "jquery": "~1.12.4"
+    },
+    "devDependencies": {
+        "extract-text-webpack-plugin": "latest",
+        "unminified-webpack-plugin": "latest",
+        "function-bind": "latest",
+        "webpack": "latest",
+        "cross-env": "latest",
+        "url-loader": "latest",
+        "json-loader": "latest",
+        "html-loader": "latest",
+        "html-webpack-plugin": "latest",
+        "image-webpack-loader": "latest",
+        "lodash": "latest",
+        "raw-loader": "latest",
+        "style-loader": "latest",
+        "mocha-loader": "latest",
+        "mocha": "latest",
+        "istanbul": "latest",
+        "underscore-template-loader": "latest",
+        "webpack-dev-middleware": "latest",
+        "webpack-dev-server": "latest",
+        "open": "latest",
+        "webpack-hot-middleware": "latest"
+    }
+}
