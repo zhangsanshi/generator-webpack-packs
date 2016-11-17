@@ -7,11 +7,11 @@ download 下来, 然后在目录执行 `npm link`
 `npm unlink`
 
 上面一条卸载不成功的话,可以执行下面这句
-` npm uninstall generator-webpack-pack -g`
+` npm uninstall generator-webpack-packs -g`
 
 ## 使用
 
-在目标目录 `yo webpack-pack`
+在目标目录 `yo webpack-packs`
 
 ## 运行
 在目标目录查看 `package.json` 文件
