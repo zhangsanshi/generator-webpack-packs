@@ -11,10 +11,10 @@
         "jquery": "~1.12.4"
     },
     "devDependencies": {
-        "extract-text-webpack-plugin": "latest",
+        "extract-text-webpack-plugin": "^1.0.1",
         "unminified-webpack-plugin": "latest",
         "function-bind": "latest",
-        "webpack": "latest",
+        "webpack": "^1.14.0",
         "cross-env": "latest",
         "url-loader": "latest",
         "json-loader": "latest",
@@ -29,7 +29,7 @@
         "istanbul": "latest",
         "underscore-template-loader": "latest",
         "webpack-dev-middleware": "latest",
-        "webpack-dev-server": "latest",
+        "webpack-dev-server": "^1.16.3",
         "open": "latest",
         "webpack-hot-middleware": "latest"
     }
