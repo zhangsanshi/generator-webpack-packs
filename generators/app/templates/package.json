@@ -16,6 +16,7 @@
         "function-bind": "latest",
         "webpack": "^1.14.0",
         "cross-env": "latest",
+        "file-loader": "latest",
         "url-loader": "latest",
         "json-loader": "latest",
         "html-loader": "latest",
